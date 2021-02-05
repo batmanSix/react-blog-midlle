@@ -1,0 +1,19 @@
+2021-01-15 09:43:20,860 INFO 32683 [egg-logrotator] app logger reload: got log-reload message
+2021-01-15 13:29:24,478 WARN 32683 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-15 17:14:21,831 WARN 32683 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-15 18:51:15,579 INFO 32683 [-/127.0.0.1/-/4ms SCHEDULE /__schedule?path=/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/57/hh6g66f96vlbjrjy0q6qjymc0000gn/T/egg-multipart-tmp/bolg"
+2021-01-15 18:51:15,587 INFO 32683 [-/127.0.0.1/-/12ms SCHEDULE /__schedule?path=/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-01-17 09:40:59,413 WARN 32683 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-17 09:40:59,461 WARN 32683 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-17 09:56:52,840 WARN 32683 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-17 10:03:57,737 WARN 32683 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-17 10:03:57,738 WARN 32683 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-17 15:12:22,011 WARN 32683 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-17 15:12:22,011 WARN 32683 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-17 17:41:46,155 WARN 32683 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-17 20:22:29,752 WARN 32683 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-17 21:40:41,414 WARN 32683 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-17 21:40:41,415 WARN 32683 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-17 23:04:48,799 WARN 32683 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-18 08:25:11,049 WARN 32683 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-18 09:23:54,084 WARN 32683 [ClusterClient:Watcher] follower closed, and try to init it again

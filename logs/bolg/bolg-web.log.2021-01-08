@@ -1,0 +1,686 @@
+2020-12-31 15:47:25,574 ERROR 11550 [-/127.0.0.1/-/1ms GET /] nodejs.PROTOCOL_SEQUENCE_TIMEOUTError: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at Handshake.emit (events.js:315:20)
+    at Handshake._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:124:8)
+    at Timer._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Timer.js:32:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "PROTOCOL_SEQUENCE_TIMEOUT"
+fatal: true
+timeout: 10000
+name: "PROTOCOL_SEQUENCE_TIMEOUTError"
+pid: 11550
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 15:47:42,825 ERROR 11573 [-/127.0.0.1/-/0ms GET /] nodejs.PROTOCOL_SEQUENCE_TIMEOUTError: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at Handshake.emit (events.js:315:20)
+    at Handshake._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:124:8)
+    at Timer._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Timer.js:32:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "PROTOCOL_SEQUENCE_TIMEOUT"
+fatal: true
+timeout: 10000
+name: "PROTOCOL_SEQUENCE_TIMEOUTError"
+pid: 11573
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 15:48:26,687 ERROR 11602 [-/127.0.0.1/-/0ms GET /] nodejs.PROTOCOL_SEQUENCE_TIMEOUTError: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at Handshake.emit (events.js:315:20)
+    at Handshake._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:124:8)
+    at Timer._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Timer.js:32:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "PROTOCOL_SEQUENCE_TIMEOUT"
+fatal: true
+timeout: 10000
+name: "PROTOCOL_SEQUENCE_TIMEOUTError"
+pid: 11602
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 15:48:36,769 ERROR 11622 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 11622
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 15:48:42,637 ERROR 11631 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 11631
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 15:48:47,785 ERROR 11642 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 11642
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 15:49:39,107 ERROR 11658 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 11658
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 16:30:10,285 ERROR 14316 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 14316
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 17:06:29,855 ERROR 14700 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 14700
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 17:09:25,941 ERROR 14861 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 14861
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 17:16:56,832 ERROR 14914 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 14914
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 17:17:46,294 ERROR 14937 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 14937
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 17:18:25,198 ERROR 15023 [-/127.0.0.1/-/1ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 15023
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 17:37:54,817 ERROR 15378 [-/127.0.0.1/-/0ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 15378
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 17:38:26,374 ERROR 15411 [-/127.0.0.1/-/1ms GET /] nodejs.ER_NOT_SUPPORTED_AUTH_MODEError: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_NOT_SUPPORTED_AUTH_MODE"
+errno: 1251
+sqlMessage: "Client does not support authentication protocol requested by server; consider upgrading MySQL client"
+sqlState: "08004"
+fatal: true
+name: "ER_NOT_SUPPORTED_AUTH_MODEError"
+pid: 15411
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-05 14:04:35,751 ERROR 41601 [-/127.0.0.1/-/7ms GET /default/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type' at line 1
+    at Query.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:65:19)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id,article.title as title,article.introduce as introduce,article.addTime as addTime,article.view_count as view_count ,.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.Id
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id,article.title as title,article.introduce as introduce,article.addTime as addTime,article.view_count as view_count ,.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.Id"
+name: "ER_PARSE_ERRORError"
+pid: 41601
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-05 14:06:51,305 ERROR 41617 [-/127.0.0.1/-/7ms GET /default/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type' at line 1
+    at Query.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:65:19)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id,article.title as title,article.introduce as introduce,article.addTime as addTime,article.view_count as view_count ,.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.id
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id,article.title as title,article.introduce as introduce,article.addTime as addTime,article.view_count as view_count ,.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.id"
+name: "ER_PARSE_ERRORError"
+pid: 41617
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-05 14:06:51,926 ERROR 41617 [-/127.0.0.1/-/1ms GET /default/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type' at line 1
+    at Query.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:65:19)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id,article.title as title,article.introduce as introduce,article.addTime as addTime,article.view_count as view_count ,.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.id
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id,article.title as title,article.introduce as introduce,article.addTime as addTime,article.view_count as view_count ,.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.id"
+name: "ER_PARSE_ERRORError"
+pid: 41617
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-05 14:06:52,109 ERROR 41617 [-/127.0.0.1/-/1ms GET /default/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type' at line 1
+    at Query.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:65:19)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id,article.title as title,article.introduce as introduce,article.addTime as addTime,article.view_count as view_count ,.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.id
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id,article.title as title,article.introduce as introduce,article.addTime as addTime,article.view_count as view_count ,.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.id"
+name: "ER_PARSE_ERRORError"
+pid: 41617
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-05 14:06:52,293 ERROR 41617 [-/127.0.0.1/-/1ms GET /default/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type' at line 1
+    at Query.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:65:19)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id,article.title as title,article.introduce as introduce,article.addTime as addTime,article.view_count as view_count ,.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.id
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id,article.title as title,article.introduce as introduce,article.addTime as addTime,article.view_count as view_count ,.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.id"
+name: "ER_PARSE_ERRORError"
+pid: 41617
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-05 14:06:52,465 ERROR 41617 [-/127.0.0.1/-/1ms GET /default/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type' at line 1
+    at Query.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:65:19)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id,article.title as title,article.introduce as introduce,article.addTime as addTime,article.view_count as view_count ,.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.id
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id,article.title as title,article.introduce as introduce,article.addTime as addTime,article.view_count as view_count ,.type.typeName as typeName FROM article LEFT JOIN type ON article.type_id = type.id"
+name: "ER_PARSE_ERRORError"
+pid: 41617
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-05 22:39:51,860 ERROR 48733 [-/127.0.0.1/-/12ms GET /default/getArticleById] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'article.article_content' in 'field list'
+    at Query.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:65:19)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id,article.title as title,article.introduce as introduce,article.article_content as article_content,FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s' ) as addTime,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.Id WHERE article.id=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'article.article_content' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT article.id as id,article.title as title,article.introduce as introduce,article.article_content as article_content,FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s' ) as addTime,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.Id WHERE article.id=undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 48733
+hostname: 192.168.0.101
+
+2021-01-05 23:29:40,669 ERROR 48733 [-/127.0.0.1/-/5ms GET /default/getArticleById] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'article.article_content' in 'field list'
+    at Query.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:65:19)
+    at /Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id,article.title as title,article.introduce as introduce,article.article_content as article_content,FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s' ) as addTime,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.Id WHERE article.id=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'article.article_content' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT article.id as id,article.title as title,article.introduce as introduce,article.article_content as article_content,FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s' ) as addTime,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.Id WHERE article.id=undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 48733
+hostname: 192.168.0.101
+

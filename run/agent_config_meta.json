@@ -1,0 +1,316 @@
+{
+  "keys": "/Users/shenyuxiaoyao/Desktop/code/react/service/config/config.default.js",
+  "middleware": "/Users/shenyuxiaoyao/Desktop/code/react/service/config/config.default.js",
+  "mysql": {
+    "client": {
+      "host": "/Users/shenyuxiaoyao/Desktop/code/react/service/config/config.default.js",
+      "port": "/Users/shenyuxiaoyao/Desktop/code/react/service/config/config.default.js",
+      "user": "/Users/shenyuxiaoyao/Desktop/code/react/service/config/config.default.js",
+      "password": "/Users/shenyuxiaoyao/Desktop/code/react/service/config/config.default.js",
+      "database": "/Users/shenyuxiaoyao/Desktop/code/react/service/config/config.default.js"
+    },
+    "app": "/Users/shenyuxiaoyao/Desktop/code/react/service/config/config.default.js",
+    "agent": "/Users/shenyuxiaoyao/Desktop/code/react/service/config/config.default.js",
+    "default": {
+      "database": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/shenyuxiaoyao/Desktop/code/react/service/config/config.default.js",
+      "type": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/shenyuxiaoyao/Desktop/code/react/service/config/config.default.js",
+    "protocolWhiteList": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/shenyuxiaoyao/Desktop/code/react/service/config/config.default.js",
+    "credentials": "/Users/shenyuxiaoyao/Desktop/code/react/service/config/config.default.js",
+    "allowMethods": "/Users/shenyuxiaoyao/Desktop/code/react/service/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "name": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "version": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "description": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "private": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "stop": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "dev": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "debug": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "test": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "cov": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "lint": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "ci": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "autod": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "url": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "license": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "strict": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "depth": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "env": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "level": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "logging": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "port": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg/config/config.default.js"
+}

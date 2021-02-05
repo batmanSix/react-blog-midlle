@@ -1,0 +1,478 @@
+2020-12-28 18:12:20,456 INFO 15130 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-12-28 18:12:20,463 INFO 15130 [egg:core] dump config after load, 3ms
+2020-12-28 18:12:20,522 INFO 15130 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2020-12-28 18:12:20,522 INFO 15130 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2020-12-28 18:12:20,523 INFO 15130 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2020-12-28 18:12:20,523 INFO 15130 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2020-12-28 18:12:20,523 INFO 15130 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2020-12-28 18:12:20,523 INFO 15130 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2020-12-28 18:12:20,523 INFO 15130 [egg-watcher:agent] watcher start success
+2020-12-28 18:12:20,540 INFO 15130 [egg:core] dump config after ready, 10ms
+2020-12-28 18:12:21,570 INFO 15130 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/public","stat":{"dev":16777222,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17196077,"size":64,"blocks":0,"atimeMs":1609150341558.6042,"mtimeMs":1609150341558.6042,"ctimeMs":1609150341558.6042,"birthtimeMs":1609150341558.6042,"atime":"2020-12-28T10:12:21.559Z","mtime":"2020-12-28T10:12:21.559Z","ctime":"2020-12-28T10:12:21.559Z","birthtime":"2020-12-28T10:12:21.559Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-12-28 18:19:13,490 INFO 15130 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153251,"size":306,"blocks":8,"atimeMs":1609150096936.4404,"mtimeMs":1609150753428.5876,"ctimeMs":1609150753428.5876,"birthtimeMs":1609150095586.1113,"atime":"2020-12-28T10:08:16.936Z","mtime":"2020-12-28T10:19:13.429Z","ctime":"2020-12-28T10:19:13.429Z","birthtime":"2020-12-28T10:08:15.586Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-28 18:19:13,696 WARN 15130 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/home.js change
+2020-12-28 18:19:26,050 WARN 15130 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router.js change
+2020-12-28 18:19:25,794 INFO 15130 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153247,"size":227,"blocks":8,"atimeMs":1609150096931.4124,"mtimeMs":1609150765782.607,"ctimeMs":1609150765782.607,"birthtimeMs":1609150095583.5322,"atime":"2020-12-28T10:08:16.931Z","mtime":"2020-12-28T10:19:25.783Z","ctime":"2020-12-28T10:19:25.783Z","birthtime":"2020-12-28T10:08:15.584Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-28 18:19:25,845 INFO 15130 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153247,"size":227,"blocks":8,"atimeMs":1609150096931.4124,"mtimeMs":1609150765782.607,"ctimeMs":1609150765782.607,"birthtimeMs":1609150095583.5322,"atime":"2020-12-28T10:08:16.931Z","mtime":"2020-12-28T10:19:25.783Z","ctime":"2020-12-28T10:19:25.783Z","birthtime":"2020-12-28T10:08:15.584Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-29 09:04:43,681 ERROR 15130 nodejs.ClusterClientNoResponseError: client no response in 29137743ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15130
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-29 09:43:19,014 ERROR 15130 nodejs.ClusterClientNoResponseError: client no response in 2231439ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15130
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-29 10:53:02,003 ERROR 15130 nodejs.ClusterClientNoResponseError: client no response in 301925ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15130
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-29 11:38:59,976 ERROR 15130 nodejs.ClusterClientNoResponseError: client no response in 2757967ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15130
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-29 12:34:18,244 ERROR 15130 nodejs.ClusterClientNoResponseError: client no response in 3254347ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15130
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-29 12:39:48,484 ERROR 15130 nodejs.ClusterClientNoResponseError: client no response in 310234ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15130
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-29 12:54:43,451 ERROR 15130 nodejs.ClusterClientNoResponseError: client no response in 74924ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15130
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-29 13:29:29,235 ERROR 15130 nodejs.ClusterClientNoResponseError: client no response in 2019766ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15130
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-29 13:34:45,760 ERROR 15130 nodejs.ClusterClientNoResponseError: client no response in 196454ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15130
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-29 14:46:51,328 ERROR 15130 nodejs.ClusterClientNoResponseError: client no response in 4125530ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15130
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 14:03:24,267 INFO 9890 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-12-31 14:03:24,273 INFO 9890 [egg:core] dump config after load, 2ms
+2020-12-31 14:03:24,316 INFO 9890 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2020-12-31 14:03:24,316 INFO 9890 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2020-12-31 14:03:24,316 INFO 9890 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2020-12-31 14:03:24,316 INFO 9890 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2020-12-31 14:03:24,316 INFO 9890 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2020-12-31 14:03:24,316 INFO 9890 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2020-12-31 14:03:24,316 INFO 9890 [egg-watcher:agent] watcher start success
+2020-12-31 14:03:24,329 INFO 9890 [egg:core] dump config after ready, 4ms
+2020-12-31 14:11:49,421 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin","stat":{"dev":16777222,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496057,"size":64,"blocks":0,"atimeMs":1609395109306.6758,"mtimeMs":1609395109306.6758,"ctimeMs":1609395109306.6758,"birthtimeMs":1609395109306.6758,"atime":"2020-12-31T06:11:49.307Z","mtime":"2020-12-31T06:11:49.307Z","ctime":"2020-12-31T06:11:49.307Z","birthtime":"2020-12-31T06:11:49.307Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-12-31 14:14:23,186 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/default","stat":{"dev":16777222,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496218,"size":64,"blocks":0,"atimeMs":1609395263123.6545,"mtimeMs":1609395263123.6545,"ctimeMs":1609395263123.6545,"birthtimeMs":1609395263123.6545,"atime":"2020-12-31T06:14:23.124Z","mtime":"2020-12-31T06:14:23.124Z","ctime":"2020-12-31T06:14:23.124Z","birthtime":"2020-12-31T06:14:23.124Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-12-31 14:14:28,577 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/admin rename
+2020-12-31 14:14:28,376 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/admin","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496227,"size":0,"blocks":0,"atimeMs":1609395268364.5112,"mtimeMs":1609395268364.5112,"ctimeMs":1609395268364.5112,"birthtimeMs":1609395268364.5112,"atime":"2020-12-31T06:14:28.365Z","mtime":"2020-12-31T06:14:28.365Z","ctime":"2020-12-31T06:14:28.365Z","birthtime":"2020-12-31T06:14:28.365Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:14:33,164 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/admin rename
+2020-12-31 14:14:32,959 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/admin","remove":true,"isDirectory":false,"isFile":false}
+2020-12-31 14:14:37,966 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/admin","stat":{"dev":16777222,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496257,"size":64,"blocks":0,"atimeMs":1609395277955.9275,"mtimeMs":1609395277955.9275,"ctimeMs":1609395277955.9275,"birthtimeMs":1609395277955.9275,"atime":"2020-12-31T06:14:37.956Z","mtime":"2020-12-31T06:14:37.956Z","ctime":"2020-12-31T06:14:37.956Z","birthtime":"2020-12-31T06:14:37.956Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-12-31 14:16:31,886 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/default/home.hs","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496354,"size":0,"blocks":0,"atimeMs":1609395391824.5815,"mtimeMs":1609395391824.5815,"ctimeMs":1609395391824.5815,"birthtimeMs":1609395391824.5815,"atime":"2020-12-31T06:16:31.825Z","mtime":"2020-12-31T06:16:31.825Z","ctime":"2020-12-31T06:16:31.825Z","birthtime":"2020-12-31T06:16:31.825Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:16:32,086 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/default/home.hs rename
+2020-12-31 14:16:38,070 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/default/home.hs","remove":true,"isDirectory":false,"isFile":false}
+2020-12-31 14:16:38,071 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/default/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496354,"size":0,"blocks":0,"atimeMs":1609395391825,"mtimeMs":1609395398063,"ctimeMs":1609395398063.8127,"birthtimeMs":1609395391824.5815,"atime":"2020-12-31T06:16:31.825Z","mtime":"2020-12-31T06:16:38.063Z","ctime":"2020-12-31T06:16:38.064Z","birthtime":"2020-12-31T06:16:31.825Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:16:38,274 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/default/home.js rename
+2020-12-31 14:16:41,684 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/default/home.js rename
+2020-12-31 14:16:41,434 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/default/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496354,"size":183,"blocks":8,"atimeMs":1609395401182.0312,"mtimeMs":1609395401422.8792,"ctimeMs":1609395401422.8792,"birthtimeMs":1609395391824.5815,"atime":"2020-12-31T06:16:41.182Z","mtime":"2020-12-31T06:16:41.423Z","ctime":"2020-12-31T06:16:41.423Z","birthtime":"2020-12-31T06:16:31.825Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:16:41,484 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/default/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496354,"size":183,"blocks":8,"atimeMs":1609395401182.0312,"mtimeMs":1609395401422.8792,"ctimeMs":1609395401422.8792,"birthtimeMs":1609395391824.5815,"atime":"2020-12-31T06:16:41.182Z","mtime":"2020-12-31T06:16:41.423Z","ctime":"2020-12-31T06:16:41.423Z","birthtime":"2020-12-31T06:16:31.825Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:21:22,773 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router","stat":{"dev":16777222,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496563,"size":64,"blocks":0,"atimeMs":1609395682712.1982,"mtimeMs":1609395682712.1982,"ctimeMs":1609395682712.1982,"birthtimeMs":1609395682712.1982,"atime":"2020-12-31T06:21:22.712Z","mtime":"2020-12-31T06:21:22.712Z","ctime":"2020-12-31T06:21:22.712Z","birthtime":"2020-12-31T06:21:22.712Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-12-31 14:21:33,055 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/admin.js rename
+2020-12-31 14:21:32,854 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/admin.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496589,"size":0,"blocks":0,"atimeMs":1609395692843.309,"mtimeMs":1609395692843.309,"ctimeMs":1609395692843.309,"birthtimeMs":1609395692843.309,"atime":"2020-12-31T06:21:32.843Z","mtime":"2020-12-31T06:21:32.843Z","ctime":"2020-12-31T06:21:32.843Z","birthtime":"2020-12-31T06:21:32.843Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:21:38,958 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js rename
+2020-12-31 14:21:38,756 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":0,"blocks":0,"atimeMs":1609395698744.3018,"mtimeMs":1609395698744.3018,"ctimeMs":1609395698744.3018,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:21:38.744Z","mtime":"2020-12-31T06:21:38.744Z","ctime":"2020-12-31T06:21:38.744Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:21:48,020 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js rename
+2020-12-31 14:21:47,767 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":92,"blocks":8,"atimeMs":1609395698744.3018,"mtimeMs":1609395707763.9077,"ctimeMs":1609395707763.9077,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:21:38.744Z","mtime":"2020-12-31T06:21:47.764Z","ctime":"2020-12-31T06:21:47.764Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:21:47,818 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":92,"blocks":8,"atimeMs":1609395698744.3018,"mtimeMs":1609395707763.9077,"ctimeMs":1609395707763.9077,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:21:38.744Z","mtime":"2020-12-31T06:21:47.764Z","ctime":"2020-12-31T06:21:47.764Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:22:04,881 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js change
+2020-12-31 14:22:04,675 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":96,"blocks":8,"atimeMs":1609395708754.2031,"mtimeMs":1609395724612.0935,"ctimeMs":1609395724612.0935,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:21:48.754Z","mtime":"2020-12-31T06:22:04.612Z","ctime":"2020-12-31T06:22:04.612Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:22:08,452 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js change
+2020-12-31 14:22:08,197 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":103,"blocks":8,"atimeMs":1609395725667.6218,"mtimeMs":1609395728185.619,"ctimeMs":1609395728185.619,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:22:05.668Z","mtime":"2020-12-31T06:22:08.186Z","ctime":"2020-12-31T06:22:08.186Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:22:08,247 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":103,"blocks":8,"atimeMs":1609395725667.6218,"mtimeMs":1609395728185.619,"ctimeMs":1609395728185.619,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:22:05.668Z","mtime":"2020-12-31T06:22:08.186Z","ctime":"2020-12-31T06:22:08.186Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:22:33,987 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router.js change
+2020-12-31 14:22:33,786 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153247,"size":136,"blocks":8,"atimeMs":1609150767074.8608,"mtimeMs":1609395753722.5835,"ctimeMs":1609395753722.5835,"birthtimeMs":1609150095583.5322,"atime":"2020-12-28T10:19:27.075Z","mtime":"2020-12-31T06:22:33.723Z","ctime":"2020-12-31T06:22:33.723Z","birthtime":"2020-12-28T10:08:15.584Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:24:28,773 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js change
+2020-12-31 14:24:28,572 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":122,"blocks":8,"atimeMs":1609395729240.839,"mtimeMs":1609395868514.4133,"ctimeMs":1609395868514.4133,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:22:09.241Z","mtime":"2020-12-31T06:24:28.514Z","ctime":"2020-12-31T06:24:28.514Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:25:22,586 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router.js change
+2020-12-31 14:25:22,379 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153247,"size":138,"blocks":8,"atimeMs":1609395754736.8152,"mtimeMs":1609395922316.0906,"ctimeMs":1609395922316.0906,"birthtimeMs":1609150095583.5322,"atime":"2020-12-31T06:22:34.737Z","mtime":"2020-12-31T06:25:22.316Z","ctime":"2020-12-31T06:25:22.316Z","birthtime":"2020-12-28T10:08:15.584Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:25:30,958 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router.js change
+2020-12-31 14:25:30,702 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153247,"size":136,"blocks":8,"atimeMs":1609395923025.023,"mtimeMs":1609395930690.7607,"ctimeMs":1609395930690.7607,"birthtimeMs":1609150095583.5322,"atime":"2020-12-31T06:25:23.025Z","mtime":"2020-12-31T06:25:30.691Z","ctime":"2020-12-31T06:25:30.691Z","birthtime":"2020-12-28T10:08:15.584Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:25:30,753 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153247,"size":136,"blocks":8,"atimeMs":1609395923025.023,"mtimeMs":1609395930690.7607,"ctimeMs":1609395930690.7607,"birthtimeMs":1609150095583.5322,"atime":"2020-12-31T06:25:23.025Z","mtime":"2020-12-31T06:25:30.691Z","ctime":"2020-12-31T06:25:30.691Z","birthtime":"2020-12-28T10:08:15.584Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:26:24,519 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/default/home.js change
+2020-12-31 14:26:24,318 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/default/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496354,"size":196,"blocks":8,"atimeMs":1609395402672.8352,"mtimeMs":1609395984265.7976,"ctimeMs":1609395984265.7976,"birthtimeMs":1609395391824.5815,"atime":"2020-12-31T06:16:42.673Z","mtime":"2020-12-31T06:26:24.266Z","ctime":"2020-12-31T06:26:24.266Z","birthtime":"2020-12-31T06:16:31.825Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:27:10,901 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js change
+2020-12-31 14:27:10,696 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":148,"blocks":8,"atimeMs":1609395870147.751,"mtimeMs":1609396030633.6975,"ctimeMs":1609396030633.6975,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:24:30.148Z","mtime":"2020-12-31T06:27:10.634Z","ctime":"2020-12-31T06:27:10.634Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:29:03,730 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js change
+2020-12-31 14:29:03,529 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":161,"blocks":8,"atimeMs":1609396031082.584,"mtimeMs":1609396143467.4219,"ctimeMs":1609396143467.4219,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:27:11.083Z","mtime":"2020-12-31T06:29:03.467Z","ctime":"2020-12-31T06:29:03.467Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:29:09,100 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":161,"blocks":8,"atimeMs":1609396145089.4998,"mtimeMs":1609396149088.6436,"ctimeMs":1609396149088.6436,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:29:05.089Z","mtime":"2020-12-31T06:29:09.089Z","ctime":"2020-12-31T06:29:09.089Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:29:09,151 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":161,"blocks":8,"atimeMs":1609396145089.4998,"mtimeMs":1609396149088.6436,"ctimeMs":1609396149088.6436,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:29:05.089Z","mtime":"2020-12-31T06:29:09.089Z","ctime":"2020-12-31T06:29:09.089Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:29:09,352 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js change
+2020-12-31 14:29:21,770 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js change
+2020-12-31 14:29:21,514 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":156,"blocks":8,"atimeMs":1609396150328.644,"mtimeMs":1609396161502.8137,"ctimeMs":1609396161502.8137,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:29:10.329Z","mtime":"2020-12-31T06:29:21.503Z","ctime":"2020-12-31T06:29:21.503Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:29:21,565 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":156,"blocks":8,"atimeMs":1609396150328.644,"mtimeMs":1609396161502.8137,"ctimeMs":1609396161502.8137,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:29:10.329Z","mtime":"2020-12-31T06:29:21.503Z","ctime":"2020-12-31T06:29:21.503Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:29:32,824 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js change
+2020-12-31 14:29:32,571 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":156,"blocks":8,"atimeMs":1609396163059.3179,"mtimeMs":1609396172560.0935,"ctimeMs":1609396172560.0935,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:29:23.059Z","mtime":"2020-12-31T06:29:32.560Z","ctime":"2020-12-31T06:29:32.560Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:29:32,622 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":156,"blocks":8,"atimeMs":1609396163059.3179,"mtimeMs":1609396172560.0935,"ctimeMs":1609396172560.0935,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:29:23.059Z","mtime":"2020-12-31T06:29:32.560Z","ctime":"2020-12-31T06:29:32.560Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:29:41,098 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":164,"blocks":8,"atimeMs":1609396173821.3435,"mtimeMs":1609396181087.6406,"ctimeMs":1609396181087.6406,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:29:33.821Z","mtime":"2020-12-31T06:29:41.088Z","ctime":"2020-12-31T06:29:41.088Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:29:41,148 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":164,"blocks":8,"atimeMs":1609396173821.3435,"mtimeMs":1609396181087.6406,"ctimeMs":1609396181087.6406,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:29:33.821Z","mtime":"2020-12-31T06:29:41.088Z","ctime":"2020-12-31T06:29:41.088Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:29:41,352 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js change
+2020-12-31 14:29:48,256 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":156,"blocks":8,"atimeMs":1609396182130.8325,"mtimeMs":1609396188243.8032,"ctimeMs":1609396188243.8032,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:29:42.131Z","mtime":"2020-12-31T06:29:48.244Z","ctime":"2020-12-31T06:29:48.244Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:29:48,307 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":156,"blocks":8,"atimeMs":1609396182130.8325,"mtimeMs":1609396188243.8032,"ctimeMs":1609396188243.8032,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T06:29:42.131Z","mtime":"2020-12-31T06:29:48.244Z","ctime":"2020-12-31T06:29:48.244Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:29:48,514 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js change
+2020-12-31 14:35:37,245 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/default/home.js change
+2020-12-31 14:35:37,040 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/admin/default/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496354,"size":237,"blocks":8,"atimeMs":1609395985610.5823,"mtimeMs":1609396536976.3887,"ctimeMs":1609396536976.3887,"birthtimeMs":1609395391824.5815,"atime":"2020-12-31T06:26:25.611Z","mtime":"2020-12-31T06:35:36.976Z","ctime":"2020-12-31T06:35:36.976Z","birthtime":"2020-12-31T06:16:31.825Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:36:06,128 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/home.js change
+2020-12-31 14:36:05,923 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153251,"size":345,"blocks":8,"atimeMs":1609150754814.8823,"mtimeMs":1609396565867.7434,"ctimeMs":1609396565867.7434,"birthtimeMs":1609150095586.1113,"atime":"2020-12-28T10:19:14.815Z","mtime":"2020-12-31T06:36:05.868Z","ctime":"2020-12-31T06:36:05.868Z","birthtime":"2020-12-28T10:08:15.586Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:36:16,333 WARN 9890 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/home.js change
+2020-12-31 14:36:16,073 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153251,"size":306,"blocks":8,"atimeMs":1609396566754.99,"mtimeMs":1609396576060.9236,"ctimeMs":1609396576060.9236,"birthtimeMs":1609150095586.1113,"atime":"2020-12-31T06:36:06.755Z","mtime":"2020-12-31T06:36:16.061Z","ctime":"2020-12-31T06:36:16.061Z","birthtime":"2020-12-28T10:08:15.586Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:36:16,124 INFO 9890 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153251,"size":306,"blocks":8,"atimeMs":1609396566754.99,"mtimeMs":1609396576060.9236,"ctimeMs":1609396576060.9236,"birthtimeMs":1609150095586.1113,"atime":"2020-12-31T06:36:06.755Z","mtime":"2020-12-31T06:36:16.061Z","ctime":"2020-12-31T06:36:16.061Z","birthtime":"2020-12-28T10:08:15.586Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 14:36:30,957 INFO 10422 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-12-31 14:36:30,964 INFO 10422 [egg:core] dump config after load, 4ms
+2020-12-31 14:36:31,000 INFO 10422 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2020-12-31 14:36:31,000 INFO 10422 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2020-12-31 14:36:31,001 INFO 10422 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2020-12-31 14:36:31,001 INFO 10422 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2020-12-31 14:36:31,001 INFO 10422 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2020-12-31 14:36:31,001 INFO 10422 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2020-12-31 14:36:31,001 INFO 10422 [egg-watcher:agent] watcher start success
+2020-12-31 14:36:31,019 INFO 10422 [egg:core] dump config after ready, 5ms
+2020-12-31 15:13:57,441 INFO 11203 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-12-31 15:13:57,448 INFO 11203 [egg:core] dump config after load, 3ms
+2020-12-31 15:13:57,485 INFO 11203 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2020-12-31 15:13:57,485 INFO 11203 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2020-12-31 15:13:57,485 INFO 11203 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2020-12-31 15:13:57,485 INFO 11203 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2020-12-31 15:13:57,485 INFO 11203 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2020-12-31 15:13:57,485 INFO 11203 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2020-12-31 15:13:57,486 INFO 11203 [egg-watcher:agent] watcher start success
+2020-12-31 15:13:57,497 INFO 11203 [egg:core] dump config after ready, 5ms
+2020-12-31 15:40:17,836 INFO 11440 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-12-31 15:40:17,842 INFO 11440 [egg:core] dump config after load, 3ms
+2020-12-31 15:40:17,881 INFO 11440 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2020-12-31 15:40:17,881 INFO 11440 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2020-12-31 15:40:17,882 INFO 11440 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2020-12-31 15:40:17,882 INFO 11440 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2020-12-31 15:40:17,882 INFO 11440 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2020-12-31 15:40:17,882 INFO 11440 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2020-12-31 15:40:17,882 INFO 11440 [egg-watcher:agent] watcher start success
+2020-12-31 15:40:17,894 INFO 11440 [egg:core] dump config after ready, 5ms
+2020-12-31 15:46:38,402 WARN 11440 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/plugin.js change
+2020-12-31 15:46:38,197 INFO 11440 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/plugin.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153249,"size":102,"blocks":8,"atimeMs":1609150096938.2139,"mtimeMs":1609400798135.353,"ctimeMs":1609400798135.353,"birthtimeMs":1609150095585.175,"atime":"2020-12-28T10:08:16.938Z","mtime":"2020-12-31T07:46:38.135Z","ctime":"2020-12-31T07:46:38.135Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 15:47:14,515 WARN 11440 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js change
+2020-12-31 15:47:14,310 INFO 11440 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":960,"blocks":8,"atimeMs":1609150096936.5168,"mtimeMs":1609400834248.2551,"ctimeMs":1609400834248.2551,"birthtimeMs":1609150095584.5066,"atime":"2020-12-28T10:08:16.937Z","mtime":"2020-12-31T07:47:14.248Z","ctime":"2020-12-31T07:47:14.248Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 15:47:31,868 INFO 11440 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":978,"blocks":8,"atimeMs":1609400834801.7253,"mtimeMs":1609400851806.4058,"ctimeMs":1609400851806.4058,"birthtimeMs":1609150095584.5066,"atime":"2020-12-31T07:47:14.802Z","mtime":"2020-12-31T07:47:31.806Z","ctime":"2020-12-31T07:47:31.806Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 15:47:32,071 WARN 11440 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js change
+2020-12-31 15:48:15,809 WARN 11440 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js change
+2020-12-31 15:48:15,606 INFO 11440 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":977,"blocks":8,"atimeMs":1609400852827.7505,"mtimeMs":1609400895548.3784,"ctimeMs":1609400895548.3784,"birthtimeMs":1609150095584.5066,"atime":"2020-12-31T07:47:32.828Z","mtime":"2020-12-31T07:48:15.548Z","ctime":"2020-12-31T07:48:15.548Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 15:48:35,854 WARN 11440 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js change
+2020-12-31 15:48:35,652 INFO 11440 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":977,"blocks":8,"atimeMs":1609400896609.7961,"mtimeMs":1609400915591.456,"ctimeMs":1609400915591.456,"birthtimeMs":1609150095584.5066,"atime":"2020-12-31T07:48:16.610Z","mtime":"2020-12-31T07:48:35.591Z","ctime":"2020-12-31T07:48:35.591Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 15:48:41,789 WARN 11440 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js change
+2020-12-31 15:48:41,535 INFO 11440 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":972,"blocks":8,"atimeMs":1609400916096.8477,"mtimeMs":1609400921524.367,"ctimeMs":1609400921524.367,"birthtimeMs":1609150095584.5066,"atime":"2020-12-31T07:48:36.097Z","mtime":"2020-12-31T07:48:41.524Z","ctime":"2020-12-31T07:48:41.524Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 15:48:41,584 INFO 11440 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":972,"blocks":8,"atimeMs":1609400916096.8477,"mtimeMs":1609400921524.367,"ctimeMs":1609400921524.367,"birthtimeMs":1609150095584.5066,"atime":"2020-12-31T07:48:36.097Z","mtime":"2020-12-31T07:48:41.524Z","ctime":"2020-12-31T07:48:41.524Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 15:48:46,925 WARN 11440 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js change
+2020-12-31 15:48:46,674 INFO 11440 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":967,"blocks":8,"atimeMs":1609400921902.2012,"mtimeMs":1609400926662.8489,"ctimeMs":1609400926662.8489,"birthtimeMs":1609150095584.5066,"atime":"2020-12-31T07:48:41.902Z","mtime":"2020-12-31T07:48:46.663Z","ctime":"2020-12-31T07:48:46.663Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 15:48:46,725 INFO 11440 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":967,"blocks":8,"atimeMs":1609400921902.2012,"mtimeMs":1609400926662.8489,"ctimeMs":1609400926662.8489,"birthtimeMs":1609150095584.5066,"atime":"2020-12-31T07:48:41.902Z","mtime":"2020-12-31T07:48:46.663Z","ctime":"2020-12-31T07:48:46.663Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 15:49:38,280 WARN 11440 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js change
+2020-12-31 15:49:38,075 INFO 11440 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":973,"blocks":8,"atimeMs":1609400927793.2932,"mtimeMs":1609400978012.992,"ctimeMs":1609400978012.992,"birthtimeMs":1609150095584.5066,"atime":"2020-12-31T07:48:47.793Z","mtime":"2020-12-31T07:49:38.013Z","ctime":"2020-12-31T07:49:38.013Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 16:30:09,333 INFO 14312 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-12-31 16:30:09,340 INFO 14312 [egg:core] dump config after load, 3ms
+2020-12-31 16:30:09,380 INFO 14312 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2020-12-31 16:30:09,380 INFO 14312 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2020-12-31 16:30:09,380 INFO 14312 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2020-12-31 16:30:09,380 INFO 14312 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2020-12-31 16:30:09,380 INFO 14312 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2020-12-31 16:30:09,381 INFO 14312 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2020-12-31 16:30:09,381 INFO 14312 [egg-watcher:agent] watcher start success
+2020-12-31 16:30:09,404 INFO 14312 [egg:core] dump config after ready, 11ms
+2020-12-31 16:34:30,096 INFO 14500 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-12-31 16:34:30,102 INFO 14500 [egg:core] dump config after load, 3ms
+2020-12-31 16:34:30,133 INFO 14500 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2020-12-31 16:34:30,133 INFO 14500 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2020-12-31 16:34:30,134 INFO 14500 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2020-12-31 16:34:30,134 INFO 14500 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2020-12-31 16:34:30,134 INFO 14500 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2020-12-31 16:34:30,134 INFO 14500 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2020-12-31 16:34:30,134 INFO 14500 [egg-watcher:agent] watcher start success
+2020-12-31 16:34:30,143 INFO 14500 [egg:core] dump config after ready, 3ms
+2020-12-31 17:06:17,311 INFO 14500 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":970,"blocks":8,"atimeMs":1609403663065.7043,"mtimeMs":1609405577253.396,"ctimeMs":1609405577253.396,"birthtimeMs":1609150095584.5066,"atime":"2020-12-31T08:34:23.066Z","mtime":"2020-12-31T09:06:17.253Z","ctime":"2020-12-31T09:06:17.253Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 17:06:17,518 WARN 14500 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js change
+2020-12-31 17:06:28,847 WARN 14500 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js change
+2020-12-31 17:06:28,593 INFO 14500 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":973,"blocks":8,"atimeMs":1609405579024.4978,"mtimeMs":1609405588581.7368,"ctimeMs":1609405588581.7368,"birthtimeMs":1609150095584.5066,"atime":"2020-12-31T09:06:19.024Z","mtime":"2020-12-31T09:06:28.582Z","ctime":"2020-12-31T09:06:28.582Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 17:06:28,645 INFO 14500 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":973,"blocks":8,"atimeMs":1609405579024.4978,"mtimeMs":1609405588581.7368,"ctimeMs":1609405588581.7368,"birthtimeMs":1609150095584.5066,"atime":"2020-12-31T09:06:19.024Z","mtime":"2020-12-31T09:06:28.582Z","ctime":"2020-12-31T09:06:28.582Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 17:09:24,645 WARN 14500 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js change
+2020-12-31 17:09:24,440 INFO 14500 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":965,"blocks":8,"atimeMs":1609405589883.245,"mtimeMs":1609405764384.8438,"ctimeMs":1609405764384.8438,"birthtimeMs":1609150095584.5066,"atime":"2020-12-31T09:06:29.883Z","mtime":"2020-12-31T09:09:24.385Z","ctime":"2020-12-31T09:09:24.385Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 17:16:55,054 INFO 14500 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":965,"blocks":8,"atimeMs":1609405766544.7683,"mtimeMs":1609406214992.5574,"ctimeMs":1609406214992.5574,"birthtimeMs":1609150095584.5066,"atime":"2020-12-31T09:09:26.545Z","mtime":"2020-12-31T09:16:54.993Z","ctime":"2020-12-31T09:16:54.993Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 17:16:55,256 WARN 14500 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js change
+2020-12-31 17:17:45,238 INFO 14500 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17153248,"size":965,"blocks":8,"atimeMs":1609406216635.1128,"mtimeMs":1609406265177.339,"ctimeMs":1609406265177.339,"birthtimeMs":1609150095584.5066,"atime":"2020-12-31T09:16:56.635Z","mtime":"2020-12-31T09:17:45.177Z","ctime":"2020-12-31T09:17:45.177Z","birthtime":"2020-12-28T10:08:15.585Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-12-31 17:17:45,442 WARN 14500 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/config/config.default.js change
+2020-12-31 17:18:24,270 INFO 15022 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-12-31 17:18:24,277 INFO 15022 [egg:core] dump config after load, 4ms
+2020-12-31 17:18:24,310 INFO 15022 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2020-12-31 17:18:24,310 INFO 15022 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2020-12-31 17:18:24,310 INFO 15022 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2020-12-31 17:18:24,310 INFO 15022 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2020-12-31 17:18:24,310 INFO 15022 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2020-12-31 17:18:24,310 INFO 15022 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2020-12-31 17:18:24,310 INFO 15022 [egg-watcher:agent] watcher start success
+2020-12-31 17:18:24,326 INFO 15022 [egg:core] dump config after ready, 7ms
+2020-12-31 17:35:04,518 INFO 15233 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-12-31 17:35:04,525 INFO 15233 [egg:core] dump config after load, 4ms
+2020-12-31 17:35:04,563 INFO 15233 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2020-12-31 17:35:04,563 INFO 15233 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2020-12-31 17:35:04,563 INFO 15233 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2020-12-31 17:35:04,564 INFO 15233 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2020-12-31 17:35:04,564 INFO 15233 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2020-12-31 17:35:04,564 INFO 15233 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2020-12-31 17:35:04,564 INFO 15233 [egg-watcher:agent] watcher start success
+2020-12-31 17:35:04,579 INFO 15233 [egg:core] dump config after ready, 7ms
+2020-12-31 17:37:53,823 INFO 15374 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-12-31 17:37:53,829 INFO 15374 [egg:core] dump config after load, 3ms
+2020-12-31 17:37:53,859 INFO 15374 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2020-12-31 17:37:53,860 INFO 15374 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2020-12-31 17:37:53,860 INFO 15374 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2020-12-31 17:37:53,860 INFO 15374 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2020-12-31 17:37:53,860 INFO 15374 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2020-12-31 17:37:53,860 INFO 15374 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2020-12-31 17:37:53,860 INFO 15374 [egg-watcher:agent] watcher start success
+2020-12-31 17:37:53,874 INFO 15374 [egg:core] dump config after ready, 8ms
+2020-12-31 17:38:25,392 INFO 15410 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-12-31 17:38:25,398 INFO 15410 [egg:core] dump config after load, 3ms
+2020-12-31 17:38:25,431 INFO 15410 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2020-12-31 17:38:25,431 INFO 15410 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2020-12-31 17:38:25,432 INFO 15410 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2020-12-31 17:38:25,432 INFO 15410 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2020-12-31 17:38:25,432 INFO 15410 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2020-12-31 17:38:25,432 INFO 15410 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2020-12-31 17:38:25,432 INFO 15410 [egg-watcher:agent] watcher start success
+2020-12-31 17:38:25,445 INFO 15410 [egg:core] dump config after ready, 7ms
+2020-12-31 17:51:35,040 INFO 15715 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-12-31 17:51:35,047 INFO 15715 [egg:core] dump config after load, 4ms
+2020-12-31 17:51:35,087 INFO 15715 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2020-12-31 17:51:35,087 INFO 15715 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2020-12-31 17:51:35,087 INFO 15715 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2020-12-31 17:51:35,087 INFO 15715 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2020-12-31 17:51:35,087 INFO 15715 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2020-12-31 17:51:35,088 INFO 15715 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2020-12-31 17:51:35,088 INFO 15715 [egg-watcher:agent] watcher start success
+2020-12-31 17:51:35,103 INFO 15715 [egg:core] dump config after ready, 9ms
+2020-12-31 20:09:45,262 ERROR 15715 nodejs.ClusterClientNoResponseError: client no response in 5468914ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15715
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 21:08:47,690 ERROR 15715 nodejs.ClusterClientNoResponseError: client no response in 3222382ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15715
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 21:52:24,471 ERROR 15715 nodejs.ClusterClientNoResponseError: client no response in 436333ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15715
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2020-12-31 21:57:35,239 ERROR 15715 nodejs.ClusterClientNoResponseError: client no response in 310750ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15715
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-01 06:37:23,057 ERROR 15715 nodejs.ClusterClientNoResponseError: client no response in 29247502ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15715
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-01 07:13:41,836 ERROR 15715 nodejs.ClusterClientNoResponseError: client no response in 2138753ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15715
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-01 07:28:26,242 ERROR 15715 nodejs.ClusterClientNoResponseError: client no response in 884403ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15715
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-05 11:43:18,442 INFO 40997 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-05 11:43:18,449 INFO 40997 [egg:core] dump config after load, 3ms
+2021-01-05 11:43:18,484 INFO 40997 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2021-01-05 11:43:18,484 INFO 40997 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2021-01-05 11:43:18,484 INFO 40997 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2021-01-05 11:43:18,484 INFO 40997 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2021-01-05 11:43:18,484 INFO 40997 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2021-01-05 11:43:18,484 INFO 40997 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2021-01-05 11:43:18,484 INFO 40997 [egg-watcher:agent] watcher start success
+2021-01-05 11:43:18,500 INFO 40997 [egg:core] dump config after ready, 6ms
+2021-01-05 12:00:08,507 WARN 40997 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js change
+2021-01-05 12:00:08,300 INFO 40997 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496354,"size":322,"blocks":8,"atimeMs":1609400155602.622,"mtimeMs":1609819208233.8657,"ctimeMs":1609819208233.8657,"birthtimeMs":1609395391824.5815,"atime":"2020-12-31T07:35:55.603Z","mtime":"2021-01-05T04:00:08.234Z","ctime":"2021-01-05T04:00:08.234Z","birthtime":"2020-12-31T06:16:31.825Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-05 14:03:02,952 INFO 40997 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496354,"size":865,"blocks":8,"atimeMs":1609819209953.6775,"mtimeMs":1609826582890.9114,"ctimeMs":1609826582890.9114,"birthtimeMs":1609395391824.5815,"atime":"2021-01-05T04:00:09.954Z","mtime":"2021-01-05T06:03:02.891Z","ctime":"2021-01-05T06:03:02.891Z","birthtime":"2020-12-31T06:16:31.825Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-05 14:03:03,154 WARN 40997 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js change
+2021-01-05 14:04:14,638 WARN 40997 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js change
+2021-01-05 14:04:14,434 INFO 40997 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":201,"blocks":8,"atimeMs":1609400327836.7144,"mtimeMs":1609826654380.133,"ctimeMs":1609826654380.133,"birthtimeMs":1609395698744.3018,"atime":"2020-12-31T07:38:47.837Z","mtime":"2021-01-05T06:04:14.380Z","ctime":"2021-01-05T06:04:14.380Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-05 14:06:47,325 WARN 40997 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js change
+2021-01-05 14:06:47,122 INFO 40997 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496354,"size":865,"blocks":8,"atimeMs":1609826584505.9834,"mtimeMs":1609826807060.077,"ctimeMs":1609826807060.077,"birthtimeMs":1609395391824.5815,"atime":"2021-01-05T06:03:04.506Z","mtime":"2021-01-05T06:06:47.060Z","ctime":"2021-01-05T06:06:47.060Z","birthtime":"2020-12-31T06:16:31.825Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-05 14:28:18,612 WARN 40997 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js change
+2021-01-05 14:28:18,409 INFO 40997 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496354,"size":864,"blocks":8,"atimeMs":1609826808383.8647,"mtimeMs":1609828098349.6287,"ctimeMs":1609828098349.6287,"birthtimeMs":1609395391824.5815,"atime":"2021-01-05T06:06:48.384Z","mtime":"2021-01-05T06:28:18.350Z","ctime":"2021-01-05T06:28:18.350Z","birthtime":"2020-12-31T06:16:31.825Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-05 17:57:31,790 INFO 47764 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-05 17:57:31,797 INFO 47764 [egg:core] dump config after load, 4ms
+2021-01-05 17:57:31,839 INFO 47764 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2021-01-05 17:57:31,839 INFO 47764 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2021-01-05 17:57:31,840 INFO 47764 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2021-01-05 17:57:31,840 INFO 47764 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2021-01-05 17:57:31,840 INFO 47764 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2021-01-05 17:57:31,840 INFO 47764 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2021-01-05 17:57:31,840 INFO 47764 [egg-watcher:agent] watcher start success
+2021-01-05 17:57:31,862 INFO 47764 [egg:core] dump config after ready, 8ms
+2021-01-05 18:07:08,142 WARN 47764 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js change
+2021-01-05 18:07:07,935 INFO 47764 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496354,"size":900,"blocks":8,"atimeMs":1609828673194.685,"mtimeMs":1609841227873.199,"ctimeMs":1609841227873.199,"birthtimeMs":1609395391824.5815,"atime":"2021-01-05T06:37:53.195Z","mtime":"2021-01-05T10:07:07.873Z","ctime":"2021-01-05T10:07:07.873Z","birthtime":"2020-12-31T06:16:31.825Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-05 18:15:04,903 WARN 47764 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js change
+2021-01-05 18:15:04,698 INFO 47764 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496354,"size":1601,"blocks":8,"atimeMs":1609841229233.3232,"mtimeMs":1609841704636.3518,"ctimeMs":1609841704636.3518,"birthtimeMs":1609395391824.5815,"atime":"2021-01-05T10:07:09.233Z","mtime":"2021-01-05T10:15:04.636Z","ctime":"2021-01-05T10:15:04.636Z","birthtime":"2020-12-31T06:16:31.825Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-05 18:15:52,719 WARN 47764 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js change
+2021-01-05 18:15:52,515 INFO 47764 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496354,"size":1646,"blocks":8,"atimeMs":1609841706016.1973,"mtimeMs":1609841752459.1436,"ctimeMs":1609841752459.1436,"birthtimeMs":1609395391824.5815,"atime":"2021-01-05T10:15:06.016Z","mtime":"2021-01-05T10:15:52.459Z","ctime":"2021-01-05T10:15:52.459Z","birthtime":"2020-12-31T06:16:31.825Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-05 18:27:10,191 WARN 47764 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/detailed.js rename
+2021-01-05 18:27:09,986 INFO 47764 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/detailed.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18234101,"size":0,"blocks":0,"atimeMs":1609842429892.294,"mtimeMs":1609842429892.294,"ctimeMs":1609842429892.294,"birthtimeMs":1609842429892.294,"atime":"2021-01-05T10:27:09.892Z","mtime":"2021-01-05T10:27:09.892Z","ctime":"2021-01-05T10:27:09.892Z","birthtime":"2021-01-05T10:27:09.892Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-05 18:27:15,209 INFO 47764 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/list.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":18234124,"size":0,"blocks":0,"atimeMs":1609842435202.7754,"mtimeMs":1609842435202.7754,"ctimeMs":1609842435202.7754,"birthtimeMs":1609842435202.7754,"atime":"2021-01-05T10:27:15.203Z","mtime":"2021-01-05T10:27:15.203Z","ctime":"2021-01-05T10:27:15.203Z","birthtime":"2021-01-05T10:27:15.203Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-05 18:27:15,414 WARN 47764 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/list.js rename
+2021-01-05 18:28:22,396 WARN 47764 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/detailed.js rename
+2021-01-05 18:28:22,192 INFO 47764 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/detailed.js","remove":true,"isDirectory":false,"isFile":false}
+2021-01-05 18:28:25,170 WARN 47764 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/list.js rename
+2021-01-05 18:28:24,964 INFO 47764 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/list.js","remove":true,"isDirectory":false,"isFile":false}
+2021-01-05 18:31:18,972 WARN 47764 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js change
+2021-01-05 18:31:18,769 INFO 47764 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/controller/default/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496354,"size":1683,"blocks":8,"atimeMs":1609841753718.4883,"mtimeMs":1609842678708.636,"ctimeMs":1609842678708.636,"birthtimeMs":1609395391824.5815,"atime":"2021-01-05T10:15:53.718Z","mtime":"2021-01-05T10:31:18.709Z","ctime":"2021-01-05T10:31:18.709Z","birthtime":"2020-12-31T06:16:31.825Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-05 18:49:26,714 ERROR 47764 nodejs.ClusterClientNoResponseError: client no response in 246225ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47764
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-05 22:09:52,843 ERROR 47764 nodejs.ClusterClientNoResponseError: client no response in 11980156ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47764
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-05 22:39:48,408 WARN 47764 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js change
+2021-01-05 22:39:48,203 INFO 47764 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app/router/default.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":17496609,"size":280,"blocks":8,"atimeMs":1609826655617.3777,"mtimeMs":1609857588139.5234,"ctimeMs":1609857588139.5234,"birthtimeMs":1609395698744.3018,"atime":"2021-01-05T06:04:15.617Z","mtime":"2021-01-05T14:39:48.140Z","ctime":"2021-01-05T14:39:48.140Z","birthtime":"2020-12-31T06:21:38.744Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-08 19:11:05,953 INFO 47478 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/code/react/blog/service/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-08 19:11:05,960 INFO 47478 [egg:core] dump config after load, 3ms
+2021-01-08 19:11:05,999 INFO 47478 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy","/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"]
+2021-01-08 19:11:05,999 INFO 47478 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app"
+2021-01-08 19:11:06,000 INFO 47478 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/config"
+2021-01-08 19:11:06,000 INFO 47478 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks"
+2021-01-08 19:11:06,000 INFO 47478 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/mocks_proxy"
+2021-01-08 19:11:06,000 INFO 47478 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/code/react/blog/service/app.js"
+2021-01-08 19:11:06,000 INFO 47478 [egg-watcher:agent] watcher start success
+2021-01-08 19:11:06,018 INFO 47478 [egg:core] dump config after ready, 7ms
+2021-01-08 19:21:11,651 ERROR 47478 nodejs.ClusterClientNoResponseError: client no response in 184495ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47478
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-08 20:30:15,095 ERROR 47478 nodejs.ClusterClientNoResponseError: client no response in 3603063ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47478
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-08 22:30:18,363 ERROR 47478 nodejs.ClusterClientNoResponseError: client no response in 301751ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47478
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-08 22:43:18,314 ERROR 47478 nodejs.ClusterClientNoResponseError: client no response in 779936ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47478
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-09 08:26:37,303 ERROR 47478 nodejs.ClusterClientNoResponseError: client no response in 30734413ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47478
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-01-09 08:58:28,738 ERROR 47478 nodejs.ClusterClientNoResponseError: client no response in 770983ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/code/react/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 47478
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
