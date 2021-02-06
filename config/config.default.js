@@ -34,9 +34,11 @@ module.exports = appInfo => {
       // username
       user: 'root',
       // password
-      password: 'Kang@841331654',
+      password: '969f95d18b898efe', //线上数据库
+      //password: 'Kang@841331654'
       // database
-      database: 'react_blog',
+      database: 'react', // 线上数据库名称
+      // database: 'react-blog' 
     },
     // load into app, default is open
     app: true,
