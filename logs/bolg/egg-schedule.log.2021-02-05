@@ -1,0 +1,51 @@
+2021-01-15 18:51:15,574 INFO 32683 [Job#1610707875565790105203253041] /Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2021-01-15 18:51:15,587 INFO 32683 [Job#1610707875565790105203253041] /Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 12ms. 
+2021-01-15 18:51:15,573 INFO 32679 [Timer] /Users/shenyuxiaoyao/Desktop/code/react/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 34724434ms at 2021-01-16 04:30:00.007
+2021-02-05 19:55:50,761 INFO 5654 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-05 19:55:50,761 INFO 5654 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-05 19:55:50,761 INFO 5654 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-05 20:02:18,411 INFO 5826 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-05 20:02:18,411 INFO 5826 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-05 20:02:18,411 INFO 5826 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-05 20:03:02,287 INFO 5851 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-05 20:03:02,287 INFO 5851 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-05 20:03:02,287 INFO 5851 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-05 20:03:19,148 INFO 5874 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-05 20:03:19,148 INFO 5874 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-05 20:03:19,148 INFO 5874 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-05 20:03:46,254 INFO 5891 [Timer] /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 30373749ms at 2021-02-06 04:30:00.003
+2021-02-05 20:03:46,254 INFO 5891 [Timer] /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 14173746ms at 2021-02-06 00:00:00.000
+2021-02-05 20:03:46,255 INFO 5891 [Timer] /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 14174746ms at 2021-02-06 00:00:01.001
+2021-02-05 20:03:46,116 INFO 5892 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-05 20:03:46,116 INFO 5892 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-05 20:03:46,116 INFO 5892 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-06 13:22:25,716 INFO 9492 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-06 13:22:25,716 INFO 9492 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-06 13:22:25,716 INFO 9492 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-06 13:24:38,072 INFO 9544 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-06 13:24:38,072 INFO 9544 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-06 13:24:38,072 INFO 9544 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-06 13:27:08,664 INFO 9616 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-06 13:27:08,664 INFO 9616 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-06 13:27:08,664 INFO 9616 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-06 13:27:31,028 INFO 9635 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-06 13:27:31,028 INFO 9635 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-06 13:27:31,028 INFO 9635 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-06 13:27:56,089 INFO 9644 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-06 13:27:56,089 INFO 9644 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-06 13:27:56,089 INFO 9644 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-06 13:30:27,821 INFO 9776 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-06 13:30:27,821 INFO 9776 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-06 13:30:27,821 INFO 9776 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-06 13:30:35,392 INFO 9799 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-06 13:30:35,392 INFO 9799 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-06 13:30:35,392 INFO 9799 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-06 14:14:53,590 INFO 10831 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-06 14:14:53,590 INFO 10831 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-02-06 14:14:53,590 INFO 10831 [egg-schedule]: register schedule /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-06 14:26:59,016 INFO 5891 [Timer] /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34381000ms at 2021-02-07 00:00:00.016
+2021-02-06 14:26:59,002 INFO 10831 [Job#16125928189936051608187619511] /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2021-02-06 14:26:59,010 INFO 10831 [Job#16125928189936051608187619511] /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 7ms. 
+2021-02-06 14:26:59,980 INFO 10831 [Job#16125928199786051618024706911] /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2021-02-06 14:26:59,992 INFO 10831 [Job#16125928199786051618024706911] /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 12ms. 
+2021-02-06 14:26:59,984 INFO 5891 [Timer] /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34381021ms at 2021-02-07 00:00:01.005

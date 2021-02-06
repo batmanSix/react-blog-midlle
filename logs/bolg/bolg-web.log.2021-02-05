@@ -1,0 +1,229 @@
+2021-02-05 19:55:51,076 ERROR 5654 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'root'@'localhost' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 5654
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-02-05 20:02:18,616 ERROR 5826 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'root'@'localhost' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 5826
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-02-05 20:03:02,451 ERROR 5851 [-/127.0.0.1/-/0ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'react'
+    at Handshake.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_BAD_DB_ERROR"
+errno: 1049
+sqlMessage: "Unknown database 'react'"
+sqlState: "42000"
+fatal: true
+name: "ER_BAD_DB_ERRORError"
+pid: 5851
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-02-05 20:03:19,279 ERROR 5874 [-/127.0.0.1/-/0ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'react'
+    at Handshake.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+code: "ER_BAD_DB_ERROR"
+errno: 1049
+sqlMessage: "Unknown database 'react'"
+sqlState: "42000"
+fatal: true
+name: "ER_BAD_DB_ERRORError"
+pid: 5874
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-02-06 13:23:26,760 ERROR 9492 [-/127.0.0.1/-/9ms GET /default/getArticleById] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/co/index.js:65:19)
+    at /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id,article.title as title,article.introduce as introduce,article.article_content as article_content,FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s' ) as addTime,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.Id WHERE article.id=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT article.id as id,article.title as title,article.introduce as introduce,article.article_content as article_content,FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s' ) as addTime,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.Id WHERE article.id=undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 9492
+hostname: 192.168.0.101
+
+2021-02-06 13:26:35,812 ERROR 9544 [-/127.0.0.1/-/9ms GET /default/getArticleById/] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/co/index.js:65:19)
+    at /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id,article.title as title,article.introduce as introduce,article.article_content as article_content,FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s' ) as addTime,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.Id WHERE article.id=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT article.id as id,article.title as title,article.introduce as introduce,article.article_content as article_content,FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s' ) as addTime,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.Id WHERE article.id=undefined"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 9544
+hostname: 192.168.0.101
+
+2021-02-06 13:28:03,091 ERROR 9644 [-/127.0.0.1/-/13ms GET /default/getArticleById/] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Pool.query (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/co/index.js:65:19)
+    at /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/co/index.js:54:5
+    sql: SELECT article.id as id,article.title as title,article.introduce as introduce,article.article_content as article_content,FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s' ) as addTime,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.Id WHERE article.id=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT article.id as id,article.title as title,article.introduce as introduce,article.article_content as article_content,FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s' ) as addTime,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.Id WHERE article.id=undefined"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 9644
+hostname: 192.168.0.101
+

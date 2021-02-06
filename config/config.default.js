@@ -34,9 +34,9 @@ module.exports = appInfo => {
       // username
       user: 'root',
       // password
-      password: '969f95d18b898efe',
+      password: 'Kang@841331654',
       // database
-      database: 'react',
+      database: 'react_blog',
     },
     // load into app, default is open
     app: true,
@@ -49,9 +49,9 @@ module.exports = appInfo => {
     domainWhiteList: ['*']
   };
   config.cors = {
-    origin: 'http://localhost:3001',
+    origin: '*',
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
     credentials: true,  //允许Cook可以跨域
-    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS'
   };
 
   return {
