@@ -37,7 +37,7 @@ module.exports = appInfo => {
       password: '969f95d18b898efe', //线上数据库
       //password: 'Kang@841331654'
       // database
-      database: 'react', // 线上数据库名称
+      database: 'react-blog', // 线上数据库名称
       // database: 'react-blog' 
     },
     // load into app, default is open
