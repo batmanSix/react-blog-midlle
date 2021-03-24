@@ -1,0 +1,119 @@
+2021-02-07 00:00:01,002 INFO 19802 [egg-logrotator] agent logger reload: got log-reload message
+2021-02-07 00:54:05,902 ERROR 19802 nodejs.ClusterClientNoResponseError: client no response in 977513ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 19802
+hostname: 192.168.0.101
+
+2021-02-07 08:37:56,574 ERROR 19802 nodejs.ClusterClientNoResponseError: client no response in 1951482ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 19802
+hostname: 192.168.0.101
+
+2021-02-07 09:15:15,640 ERROR 19802 nodejs.ClusterClientNoResponseError: client no response in 2239062ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 19802
+hostname: 192.168.0.101
+
+2021-02-07 11:02:26,646 INFO 21639 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-02-07 11:02:26,654 INFO 21639 [egg:core] dump config after load, 3ms
+2021-02-07 11:02:26,686 INFO 21639 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/app","/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/config","/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/mocks","/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/mocks_proxy","/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/app.js"]
+2021-02-07 11:02:26,686 INFO 21639 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/app"
+2021-02-07 11:02:26,686 INFO 21639 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/config"
+2021-02-07 11:02:26,687 INFO 21639 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/mocks"
+2021-02-07 11:02:26,687 INFO 21639 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/mocks_proxy"
+2021-02-07 11:02:26,687 INFO 21639 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/app.js"
+2021-02-07 11:02:26,687 INFO 21639 [egg-watcher:agent] watcher start success
+2021-02-07 11:02:26,699 INFO 21639 [egg:core] dump config after ready, 4ms
+2021-02-07 11:03:39,297 INFO 21689 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-02-07 11:03:39,304 INFO 21689 [egg:core] dump config after load, 4ms
+2021-02-07 11:03:39,333 INFO 21689 [egg-watcher] Start watching: ["/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/app","/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/config","/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/mocks","/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/mocks_proxy","/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/app.js"]
+2021-02-07 11:03:39,333 INFO 21689 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/app"
+2021-02-07 11:03:39,333 INFO 21689 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/config"
+2021-02-07 11:03:39,333 INFO 21689 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/mocks"
+2021-02-07 11:03:39,333 INFO 21689 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/mocks_proxy"
+2021-02-07 11:03:39,333 INFO 21689 [egg-watcher] Start watching: "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/app.js"
+2021-02-07 11:03:39,334 INFO 21689 [egg-watcher:agent] watcher start success
+2021-02-07 11:03:39,343 INFO 21689 [egg:core] dump config after ready, 4ms
+2021-02-07 11:04:21,307 INFO 21689 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/config/config.default.js","stat":{"dev":16777224,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":24511412,"size":1310,"blocks":8,"atimeMs":1612667014659.0618,"mtimeMs":1612667061243.9395,"ctimeMs":1612667061243.9395,"birthtimeMs":1612624039565.5662,"atime":"2021-02-07T03:03:34.659Z","mtime":"2021-02-07T03:04:21.244Z","ctime":"2021-02-07T03:04:21.244Z","birthtime":"2021-02-06T15:07:19.566Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-02-07 11:04:21,515 WARN 21689 [agent:development] reload worker because /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/config/config.default.js change
+2021-02-07 13:02:52,240 ERROR 21689 nodejs.ClusterClientNoResponseError: client no response in 5429248ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 21689
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-02-07 13:20:07,528 ERROR 21689 nodejs.ClusterClientNoResponseError: client no response in 1010856ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 21689
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-02-07 13:32:22,857 ERROR 21689 nodejs.ClusterClientNoResponseError: client no response in 571230ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 21689
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-02-07 22:20:15,959 ERROR 21689 nodejs.ClusterClientNoResponseError: client no response in 13039832ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 21689
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-02-08 08:06:00,157 ERROR 21689 nodejs.ClusterClientNoResponseError: client no response in 28843241ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 21689
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-02-08 12:43:41,568 ERROR 21689 nodejs.ClusterClientNoResponseError: client no response in 1021685ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 21689
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-02-08 12:56:10,834 ERROR 21689 nodejs.ClusterClientNoResponseError: client no response in 648147ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 21689
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-02-08 13:13:39,745 ERROR 21689 nodejs.ClusterClientNoResponseError: client no response in 580699ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 21689
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+
+2021-02-08 13:26:29,340 ERROR 21689 nodejs.ClusterClientNoResponseError: client no response in 689402ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 21689
+hostname: shenyuxiaoyaodeMacBook-Pro.local
+

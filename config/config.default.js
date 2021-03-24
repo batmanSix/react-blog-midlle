@@ -34,8 +34,8 @@ module.exports = appInfo => {
       // username
       user: 'root',
       // password
-      password: '969f95d18b898efe', //线上数据库
-      //password: 'Kang@841331654'
+      // password: '969f95d18b898efe', //线上数据库
+      password: 'Kang@841331654',
       // database
       database: 'react_blog', // 线上数据库名称
     },
@@ -50,7 +50,7 @@ module.exports = appInfo => {
     domainWhiteList: ['*']
   };
   config.cors = {
-    origin: '*',
+    origin: 'http://localhost:3000',
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
     credentials: true,  //允许Cook可以跨域
   };

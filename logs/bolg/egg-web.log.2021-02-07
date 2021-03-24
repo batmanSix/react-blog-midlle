@@ -1,0 +1,63 @@
+2021-02-07 00:00:01,002 INFO 20023 [egg-logrotator] app logger reload: got log-reload message
+2021-02-07 00:54:05,882 WARN 20023 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-02-07 08:37:56,573 WARN 20023 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-02-07 09:15:15,639 WARN 20023 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-02-07 11:02:27,394 INFO 21641 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 11:02:27,414 INFO 21641 [egg-multipart] stream mode enable
+2021-02-07 11:02:27,415 INFO 21641 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-02-07 11:02:27,577 INFO 21641 [egg-static] starting static serve /public/ -> /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/app/public
+2021-02-07 11:02:27,580 INFO 21641 [egg-security] use methodnoallow middleware
+2021-02-07 11:02:27,581 INFO 21641 [egg-security] use noopen middleware
+2021-02-07 11:02:27,581 INFO 21641 [egg-security] use nosniff middleware
+2021-02-07 11:02:27,582 INFO 21641 [egg-security] use xssProtection middleware
+2021-02-07 11:02:27,583 INFO 21641 [egg-security] use xframe middleware
+2021-02-07 11:02:27,583 INFO 21641 [egg-security] use dta middleware
+2021-02-07 11:02:27,583 INFO 21641 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 11:02:27,596 INFO 21641 [egg:core] dump config after load, 5ms
+2021-02-07 11:02:27,877 INFO 21641 [egg:core] dump config after ready, 7ms
+2021-02-07 11:02:27,879 INFO 21641 [egg-watcher:application] watcher start success
+2021-02-07 11:03:39,984 INFO 21690 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 11:03:40,001 INFO 21690 [egg-multipart] stream mode enable
+2021-02-07 11:03:40,001 INFO 21690 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-02-07 11:03:40,177 INFO 21690 [egg-static] starting static serve /public/ -> /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/app/public
+2021-02-07 11:03:40,178 INFO 21690 [egg-security] use methodnoallow middleware
+2021-02-07 11:03:40,180 INFO 21690 [egg-security] use noopen middleware
+2021-02-07 11:03:40,181 INFO 21690 [egg-security] use nosniff middleware
+2021-02-07 11:03:40,182 INFO 21690 [egg-security] use xssProtection middleware
+2021-02-07 11:03:40,182 INFO 21690 [egg-security] use xframe middleware
+2021-02-07 11:03:40,183 INFO 21690 [egg-security] use dta middleware
+2021-02-07 11:03:40,183 INFO 21690 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 11:03:40,193 INFO 21690 [egg:core] dump config after load, 4ms
+2021-02-07 11:03:40,207 INFO 21690 [egg-watcher:application] watcher start success
+2021-02-07 11:03:40,210 INFO 21690 [egg-mysql] instance[0] status OK, rds currentTime: Sun Feb 07 2021 11:03:40 GMT+0800 (GMT+08:00)
+2021-02-07 11:03:40,217 INFO 21690 [egg:core] dump config after ready, 5ms
+2021-02-07 11:04:22,696 INFO 21701 [egg:logger] init all loggers with options: {"dir":"/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bolg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-02-07 11:04:22,719 INFO 21701 [egg-multipart] stream mode enable
+2021-02-07 11:04:22,719 INFO 21701 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-02-07 11:04:22,907 INFO 21701 [egg-static] starting static serve /public/ -> /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/app/public
+2021-02-07 11:04:22,910 INFO 21701 [egg-security] use methodnoallow middleware
+2021-02-07 11:04:22,910 INFO 21701 [egg-security] use noopen middleware
+2021-02-07 11:04:22,911 INFO 21701 [egg-security] use nosniff middleware
+2021-02-07 11:04:22,912 INFO 21701 [egg-security] use xssProtection middleware
+2021-02-07 11:04:22,912 INFO 21701 [egg-security] use xframe middleware
+2021-02-07 11:04:22,913 INFO 21701 [egg-security] use dta middleware
+2021-02-07 11:04:22,913 INFO 21701 [egg-security] compose 6 middlewares into one security middleware
+2021-02-07 11:04:22,926 INFO 21701 [egg:core] dump config after load, 4ms
+2021-02-07 11:04:22,941 INFO 21701 [egg-watcher:application] watcher start success
+2021-02-07 11:04:22,944 INFO 21701 [egg-mysql] instance[0] status OK, rds currentTime: Sun Feb 07 2021 11:04:22 GMT+0800 (GMT+08:00)
+2021-02-07 11:04:22,951 INFO 21701 [egg:core] dump config after ready, 5ms
+2021-02-07 13:02:52,237 WARN 21701 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-02-07 13:20:07,524 WARN 21701 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-02-07 13:20:07,525 WARN 21701 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-02-07 13:32:22,857 WARN 21701 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-02-07 22:20:15,958 WARN 21701 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-02-08 08:06:00,157 WARN 21701 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-02-08 12:43:41,547 WARN 21701 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-02-08 12:43:41,559 WARN 21701 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-02-08 12:56:10,834 WARN 21701 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-02-08 13:13:39,744 WARN 21701 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-02-08 13:13:39,744 WARN 21701 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-02-08 13:26:29,338 WARN 21701 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-02-08 16:02:24,595 INFO 21701 [egg-logrotator] clean all log before 31 days
+2021-02-08 16:02:25,477 INFO 21701 [egg-logrotator] broadcast log-reload
+2021-02-08 16:02:25,477 INFO 21701 [egg-logrotator] rotate files success by DayRotator, files ["/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg/common-error.log -> /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg/common-error.log.2021-02-07","/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg/bolg-web.log -> /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg/bolg-web.log.2021-02-07","/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg/egg-web.log -> /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg/egg-web.log.2021-02-07","/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg/egg-schedule.log -> /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg/egg-schedule.log.2021-02-07","/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg/egg-agent.log -> /Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/logs/bolg/egg-agent.log.2021-02-07"]

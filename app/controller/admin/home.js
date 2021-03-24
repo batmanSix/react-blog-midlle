@@ -74,7 +74,6 @@ class homeController extends Controller {
       'FROM article LEFT JOIN type ON article.type_id = type.Id ' +
       'ORDER BY article.id DESC '
 
-    console.log(sql)
     const resList = await this.app.mysql.query(sql)
     this.ctx.body = { list: resList }
 

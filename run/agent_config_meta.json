@@ -72,8 +72,8 @@
   },
   "cors": {
     "origin": "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/config/config.default.js",
-    "credentials": "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/config/config.default.js",
-    "allowMethods": "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/config/config.default.js"
+    "allowMethods": "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/config/config.default.js",
+    "credentials": "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/config/config.default.js"
   },
   "session": {
     "maxAge": "/Users/shenyuxiaoyao/Desktop/project/react-blog-midlle/node_modules/egg-session/config/config.default.js",

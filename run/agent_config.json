@@ -167,9 +167,9 @@
       }
     },
     "cors": {
-      "origin": "http://localhost:3001",
-      "credentials": true,
-      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
+      "origin": "*",
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS",
+      "credentials": true
     },
     "env": "local",
     "name": "bolg",
